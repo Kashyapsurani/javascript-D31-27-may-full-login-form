@@ -14,7 +14,7 @@ function myfununction() {
     } else if (username == user && password != pass) {
         Swal.fire({
             icon: "error",
-            title: "your password  if worng",
+            title: "your password is worng",
         });
     }
 
